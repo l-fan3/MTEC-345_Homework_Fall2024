@@ -1,1 +1,2 @@
-# MTEC-345_Homework_Spring2024
+Homework 1 done
+
