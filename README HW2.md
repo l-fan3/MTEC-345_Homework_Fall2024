@@ -19,5 +19,13 @@ path.exist()checks whether the path refers to an existing file or directory in t
 6.What modifications would be needed to include .mp3 files in the files list?
 (*I've asked AI for this one because I have no idea how to achieve it.) ''files = [file for file in path.rglob('*.wav')]''
 7.If the goal is to also print the names of all the .wav files collected, how can you achieve this?
+Use a for loop: 
+'
+print("Collected .wav files:")
+for file in files:
+    print(file.name)
 
+print(f"\nTotal number of .wav files: {len(files)}")
+'
 8.Why might it be beneficial to initialize the files list before populating it with file paths?
+Claerify the file list could make the codes more readable and easier to add on more additional statements or logics, also easier for debugging.
