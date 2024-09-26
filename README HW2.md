@@ -1,4 +1,4 @@
-### 1miniconda environment installed successfullly.
+### 1 miniconda environment installed successfullly.
 
 
 ### 2. Data Collection and Labeling:
