@@ -1,0 +1,22 @@
+# Install this environment with:
+# conda env create -f environment.yml
+#
+# If you make changes to this file, update the environment with:
+# conda env update -f environment.yml
+
+name: mtec-345
+channels:
+  # - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pytorch::pytorch=2.4
+  - pytorch::torchaudio
+  - numpy
+  - jupyter
+  - scipy
+  - matplotlib
+  - scikit-learn
+  - pip:
+    - librosa
